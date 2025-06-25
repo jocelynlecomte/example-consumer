@@ -17,7 +17,7 @@ describe('API Pact test', () => {
     test('ID 10 exists', async () => {
       // Arrange
       const expectedProduct = {
-        id: '10',
+        id: 'abc',
         type: 'CREDIT_CARD',
         name: '30 Degrees'
       };
